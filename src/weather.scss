@@ -1,0 +1,25 @@
+.weather{
+   .city-details{
+     display: flex;
+     grid-gap: 20px;
+     justify-content: center;
+   }
+}
+
+.weather-details-section{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-between;
+  .each-day-weather-section{
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 10px;
+    width: 50%;
+    height: 250px;
+    .weather-details-each-weather{
+      display: flex;
+      flex-direction: column;
+    }
+  }
+}
